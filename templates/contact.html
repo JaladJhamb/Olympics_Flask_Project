@@ -1,0 +1,45 @@
+{% block cont %}
+<html>
+    <head>
+
+    </head>
+    <body>
+      <form  action="/aftercontact" method = 'POST' enctype="multipart/form-data">
+        
+        <div class = "main div" style="padding-top: 20px; width: 50%; padding-left: 20%;">
+            <div class="row">
+            <div class="col">
+                <label  class="form-label">Full Name</label>
+                <input type="text" class="form-control" placeholder="Full Name" aria-label="First name" name="Full Name">
+            </div>
+        <!--<form class="row g-3 needs-validation" novalidate>
+            <div class="col-md-4 position-relative">
+              <label for="validationTooltip01" class="form-label">Full Name</label>
+              <input type="text" class="form-control" id="validationTooltip01" value="Full Name" required>
+              <div class="valid-tooltip">
+              </div>
+            </div>-->
+            
+            <div class="mb-3">
+                <label for="exampleInputEmail1" class="form-label">Email address</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" value="123@abc.com" name="Email">
+                <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+              </div>
+              <div class="form-group">
+                <label for="question">Query:</label>
+                <textarea class="form-control" rows="5" id="comment" name="Query"></textarea>
+              </div>
+            
+            
+            <div class="col-12">
+              <button class="btn btn-primary" type="submit">Submit </button>
+            </div>
+          </form>
+        </div>
+    </body>
+    {% if msg %}
+    <p class = "lead", style="color: cornflowerblue;">{{msg}}</p>
+    
+    {% endif %}
+</html>
+{% endblock %}

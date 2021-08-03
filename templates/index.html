@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>Website</title>
+        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <!-- <link href="./styles.css" rel="stylesheet" />-->
+        <link rel="stylesheet" media="all" href="{{ url_for('static', filename='styles.css')}}">
+    </head>
+    <body id="page-top">
+        <!-- Navigation-->
+        
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" id="mainNav">
+            <div class="container px-4">
+                <a class="navbar-brand" href="/">Olympics</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#services">Visualization</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                        <li><a href = "/Data/"><button type="button" class="btn btn-secondary">Data</button></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        
+        <!-- Header-->
+        <header class="bg-primary bg-gradient text-white">
+            <div class="container px-4 text-center">
+                <h1 class="display-1">Citius - Altius - Fortius</h1>
+                <h1 class="display-6">OLYMPICS(1986-2016)</h1>
+
+                <a class="btn btn-lg btn-light" href="#about">Start scrolling!</a>
+            </div>
+        </header>
+    </section>
+    <section class="bg-light" id="info">
+        <div class="container px-4">
+            <div class="row gx-4 justify-content-center">
+                <div class="col-tg-8">
+                    
+                    <center>
+                        <h1 class="display-1">OLYMPICS</h1>
+                        <blockquote class="blockquote">
+                            <p>"For athletes, the Olympics are the ultimate test of their worth"</p>
+                          </blockquote>
+                    </center><br><br>
+                    <p class="lead" >The modern Olympic Games or Olympics (French: Jeux olympiques) are leading international sporting events featuring summer and winter sports competitions in which thousands of athletes from around the world participate in a variety of competitions. The Olympic Games are considered the world's foremost sports competition with more than 200 nations participating. The Olympic Games are normally held every four years, alternating between the Summer and Winter Olympics every two years in the four-year period.</p>
+
+                    <p class ="lead"> Their creation was inspired by the ancient Olympic Games (Ancient Greek: Ὀλυμπιακοί Ἀγῶνες), held in Olympia, Greece from the 8th century BC to the 4th century AD. Baron Pierre de Coubertin founded the International Olympic Committee (IOC) in 1894, leading to the first modern Games in Athens in 1896. The IOC is the governing body of the Olympic Movement[definition needed], with the Olympic Charter defining its structure and authority.</p>
+
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+        <!-- About section-->
+        <section id="about">
+            <div class="container px-4">
+                <div class="row gx-4 justify-content-center">
+                    <div class="col-lg-8">
+                        <h2>About us</h2><br><br>
+                        <p class="lead">This website features different graphs created through analysing the olympics data so that we can get to know
+                            about the different inoformation through different aspects like getting infomration about the top countries
+                            on the basis of medals count, The most popular sports, contribution of athletes on the basis of the gender etc.</p>
+                        <p class ="lead">This website features information of Olympics from 1986-2016. We appreciate your support and hope your experience
+                            with us will be enjoyble one.</p>
+                        <p class = "lead">Please let us know how we can improve our website for better customer experience. 
+                        </p>        
+                        
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Services section-->
+        <section class="bg-light" id="services">
+            <div class="container px-4">
+                <div class="row gx-4 justify-content-center">
+                    <div class="col-lg-8">
+                        
+                        
+                        <img src="../static/Sports_Most_awarded_medals.jpg"></img><br><br>
+                        <p class="lead">Over here we can see that top sports in which the athletes got most medals.Athletics was on the top followed by Gymnastics and Swimming</p>
+
+                        
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="bg-light" id="services">
+            <div class="container px-4">
+                <div class="row gx-4 justify-content-center">
+                    <div class="col-tg-8">
+                        
+                        
+                        <img src="../static/Distribution.jpg"></img><br><br>
+                        <p class="lead">Over here we can see the distribution of different medals that is gold, silver and bronze won by males and feamales. And as above we can say that males won more medals than females.</p>
+
+                        
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="bg-light" id="services">
+            <div class="container px-4">
+                <div class="row gx-4 justify-content-center">
+                    <div class="col-lg-8">
+                        
+                        
+                        <img src="../static/Contribution.jpg"></img><br><br>
+                        <p class="lead">Over here we can see the contribution of males and females over the years and we can see that males participated more as compared to women</p>
+
+                        
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="bg-light" id="services">
+            <div class="container px-4">
+                <div class="row gx-4 justify-content-center">
+                    <div class="col-lg-8">
+                        
+                        
+                        <img src="../static/Weightlifting.jpg"></img><br><br>
+                        <p class="lead">Over here we can see the medals awarded in a particular sport that is weightlifitng over the years and we can see the number of all three medals awarded were almost similar in every year.</p>
+
+                        
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="bg-light" id="services">
+            <div class="container px-4">
+                <div class="row gx-4 justify-content-center">
+                    <div class="col-lg-8">
+                        
+                        
+                        <img src="../static/Medals.jpg"></img><br><br>
+                        <p class="lead">Over here we can see the numbers of medals that is gold, silver and bronze and the total number of medals which include all three on the basis of country and we cna see that United States being on the top while soviet union on the second. </p>
+
+                        
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="bg-light" id="services">
+            <div class="container px-4">
+                <div class="row gx-4 justify-content-center">
+                    <div class="col-lg-8">
+                        
+                        
+                        <img src="../static/Top_10_countries.jpg"></img><br><br>
+                        <p class="lead">Here we have listed top 10 countries on the basis of gold medals won with the help of a pie chart and as usual we can see USA being on the top.</p>
+
+                        
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="bg-light" id="services">
+            <div class="container px-4">
+                <div class="row gx-4 justify-content-center">
+                    <div class="col-lg-8">
+                        
+                        
+                        <img src="../static/Top_sports.jpg"></img><br><br>
+                        <p class="lead">Here the top sports are shown with the help of wordcloud the words which are bigger in width and height are being more popular than the others.<p>
+
+                        
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="bg-light" id="services">
+            <div class="container px-4">
+                <div class="row gx-4 justify-content-center">
+                    <div class="col-lg-8">
+                        
+                        
+                        <img src="../static/Age.jpg"></img><br><br>
+                        <p class="lead">Above we have shown the age of the atheletes participated in Olympics on the basis of there gender and we can see that among males the maximum age of an athelete was above 90 years while in females it was above 70.<p>
+
+                        
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Contact section-->
+        <section id="contact">
+            <div class="container px-4">
+                <div class="row gx-4 justify-content-center">
+                    <div class="col-lg-8">
+                        <h2>Contact us</h2>
+                        <h4>We'd love to hear from you</h4>
+                        <p class="lead">Whether you have a question about features about the data or visualization or anything else, feel free to fill the form below</p>
+                    </div>
+                </div>
+                {% include 'contact.html' %}
+                {% block cont %}
+                {% endblock %}
+                
+            </div>
+            
+        </section>
+        <!-- Footer-->
+        <footer class="py-5 bg-dark">
+            <div class="container px-4"><p class="m-0 text-center text-white">Copyright &copy; Your Website 2021</p></div>
+        </footer>
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Core theme JS-->
+        <!-- <script src="scripts.js"></script>-->
+        <script  src="{{ url_for('static', filename='scripts.js')}}" data-turbolinks-track="reload"></script>
+    </body>
+</html>
